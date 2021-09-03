@@ -166,6 +166,10 @@ Private Sub txtW_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
   OnlyNum KeyAscii
 End Sub
 
+Private Sub cmdCancel_Click()
+  FormCancel
+End Sub
+
 '===============================================================================
 
 Private Sub OnlyNum(ByVal KeyAscii As MSForms.ReturnInteger)
